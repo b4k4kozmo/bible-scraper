@@ -1,10 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 
-book = "Psalm"
-chapter = "23"
+book = "Genesis"
+chapter = "1"
 booknum = ""
-as_array = False
+as_array = True
 string_array = []
 full_string = ""
 # Making a GET request
